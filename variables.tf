@@ -21,3 +21,9 @@ variable "retention_period" {
   type        = string
   default     = "14"
 }
+
+variable "service_name" {
+  description = "The name for the service"
+  type        = string
+  default     = "route53-backup"
+}
